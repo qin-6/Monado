@@ -1,0 +1,29 @@
+{
+    "version": "Monado(1.0.0)",
+    "paas_service":
+    {
+        "enable": false,
+        "signaling_server_ipaddr": "127.0.0.1",
+        "signaling_server_port": 6507
+    },
+    "video_params":
+    {
+        "width": 2048,
+        "height": 2048,
+        "fps": 75,
+        "bitrate": 20000000
+    },
+    "fix_foveation_render":
+    {
+        "enable": false,
+        "supported": true,
+        "frag_shader_path": ".\\shaders\\frag.spv",
+        "vert_shader_path": ".\\shaders\\vert.spv",
+        "center_size_x": 0.4,
+        "center_size_y": 0.35,
+        "center_shift_x": 0.4,
+        "center_shift_y": 0.1,
+        "edge_ratio_x": 4.0,
+        "edge_ratio_y": 5.0
+    }
+}
